@@ -1,0 +1,12 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html">
+<BODY>
+<h3>Banking</h3>
+<h:form>
+<p>Balance: #{bank.bal}</p>
+<br/>
+<p>Eneter amount to deposite:<h:inputText
+value="#{bank.damt}" /></p>
+<p><h:commandButton
+action="#{bank.callEjbDeposite()}" value="Deposite Amount"
+/></p>
+<br/>

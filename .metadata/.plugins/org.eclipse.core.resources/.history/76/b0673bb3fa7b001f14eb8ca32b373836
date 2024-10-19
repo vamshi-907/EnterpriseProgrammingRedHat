@@ -1,0 +1,18 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html">
+<BODY>
+<h3>Addition</h3>
+<h:form>
+<p>A:<h:inputText value="#{calc.a}" /></p>
+<p>B:<h:inputText value="#{calc.b}" /></p>
+<p>Result C:#{calc.c}</p>
+<p><h:commandButton action="#{calc.callEjbAdd()}" value="Add" /></p>
+</h:form>
+<h3>Submission</h3>
+<h:form>
+<p>A:<h:inputText value="#{calc.a}" /></p>
+<p>B:<h:inputText value="#{calc.b}" /></p>
+<p>Result C:#{calc.c}</p>
+<p><h:commandButton action="#{calc.callEjbSub()}" value="Sub" /></p>
+</h:form>
+</BODY>
+</HTML>

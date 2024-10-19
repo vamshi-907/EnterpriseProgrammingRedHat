@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+cse
+{
+  background-color: blue;
+}
+rollno
+{
+  background-color: green;
+}
+
+rollno,sname
+{
+  display:block;
+}
